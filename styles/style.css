@@ -23,8 +23,8 @@ body, html {
 
 header {
     background-color: hotpink;
-    position: relative;
-    height: 25vh;
+    min-height: 150px; /* pq nao height: Xvh*/
+    text-align: center;
     width: 100vw;
 }
 
