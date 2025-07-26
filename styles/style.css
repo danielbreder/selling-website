@@ -32,6 +32,10 @@ body {
   font-size: 24px;
 }
 
+.logoi {
+  width: 40%;
+}
+
 .nav-links {
   position: absolute;
   right: 0;
