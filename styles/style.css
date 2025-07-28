@@ -12,10 +12,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-body {
-  font-family: sans-serif;
+body, html {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
 /* Navbar mobile */
@@ -106,4 +109,25 @@ body {
   width: 100%;
   height: auto;
   margin: 15px;
+}
+
+.main-buttom{
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+  position: absolute;
+  color: white;
+  background-color: purple;
+  padding-top: -135px;
+  margin-top: -135px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  align-items: end;
+  width: 230px;
+  height: 50px;
+  text-decoration: none;
+}
+
+.main-buttom:hover {
+  background-color: rgb(218, 0, 218);
 }
