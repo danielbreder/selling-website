@@ -201,7 +201,6 @@ body, html {
   width: 100%;;
   display: flex;
   margin: auto;
-  border-radius: 20px;
 }
 
 .blank-space {
@@ -215,11 +214,25 @@ body, html {
 }
 
 .space {
-  height: 20vh;
+  height: 70vh;
   background: #e66067;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;;
   display: flex;
   margin: auto;
+}
+
+.space h2 {
+  font-family: cursive;
+  color: white;
+}
+
+.space h2.contact {
+  padding-bottom: 550px;
+}
+
+.space h2.store {
+  
 }
