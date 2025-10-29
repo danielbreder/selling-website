@@ -48,5 +48,21 @@
   <footer></footer>
 
   <script src="mobile-navbar.js"></script>
+  <script>
+  // Detecta idioma do navegador (pt para português, en para inglês, etc.)
+  const userLang = navigator.language || navigator.userLanguage;
+
+  // Seleciona os botões (você pode adicionar IDs a eles se quiser ser mais específico)
+  const buttonA = document.querySelector('.a-buttom');
+  const buttonB = document.querySelector('.b-buttom');
+
+  if (userLang.startsWith('pt')) {
+    // Visitante do Brasil → WhatsApp
+    buttonA.href = "https://wa.me/5511999999999?text=Olá!%20Quero%20ver%20os%20bolos!";
+  } else {
+    // Visitante dos EUA → Messages (iMessage/SMS)
+    buttonA.href = "sms:+15551234567?body=Hello!%20I'm%20interested%20in%20your%20cakes.";
+  }
+</script>
 </body>
 </html>
